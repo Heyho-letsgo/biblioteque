@@ -21,9 +21,16 @@ if (Books.find().count() === 0) {
 
 
 if (Utilisateurs.find().count() === 0) {
-
     Utilisateurs.insert({name: 'Andy'});
     Utilisateurs.insert({name: 'Mory'});
     Utilisateurs.insert({name: 'John'});
+
+}
+
+
+if (Messages.find().count() === 0) {
+    Messages.insert({textOfMessage: 'textOfMessage01'});
+    Messages.insert({textOfMessage: 'textOfMessage02'});
+    Messages.insert({textOfMessage: 'textOfMessage03'});
 
 }

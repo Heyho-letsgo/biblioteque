@@ -3,3 +3,4 @@
  */
 Meteor.subscribe('books');
 Meteor.subscribe('utilisateurs');
+Meteor.subscribe('messages');

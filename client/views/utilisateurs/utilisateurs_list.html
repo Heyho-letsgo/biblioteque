@@ -1,6 +1,8 @@
 
 <template name="utilisateursList">
 <h3>Utilisateurs</h3>
+
+<input type="button" value="Tri" utilisateursSort />
 <ul>
 	{{#each utilisateurs}}
 	<li><a href="{{ pathFor "utilisateurPage" }}">{{name}}</a></li>

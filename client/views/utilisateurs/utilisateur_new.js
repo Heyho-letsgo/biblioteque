@@ -15,7 +15,6 @@ Template.utilisateurNew.events({
         var utilisateur = {
             name: $(e.target).find('[name=name]').val()
         }
-
         utilisateur._id = Utilisateurs.insert(utilisateur);
         Router.go('utilisateurPage', utilisateur);
     }
